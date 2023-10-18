@@ -1,0 +1,24 @@
+{
+  "name": "devops-fundamentals-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:shell": "shellcheck $(find module_* -type f -name '*.sh')",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanyak1601/devops-fundamentals-course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanyak1601/devops-fundamentals-course/issues"
+  },
+  "homepage": "https://github.com/tanyak1601/devops-fundamentals-course#readme",
+  "devDependencies": {
+    "husky": "^8.0.3",
+    "shellcheck": "^2.2.0"
+  }
+}
