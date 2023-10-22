@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 red='\033[0;31m'
 green='\033[0;32m'
 color_off='\033[0m'
