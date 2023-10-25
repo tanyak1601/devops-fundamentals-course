@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint:shell": "shellcheck $(find module_* -type f -name '*.sh')",
+    "lint:shell": "shellcheck $(find module_* lab_*/*.sh -type f -name '*.sh')",
     "prepare": "husky install"
   },
   "repository": {
